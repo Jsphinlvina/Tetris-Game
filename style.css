@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000;
+}
+
+canvas {
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+}
+
+#kontrolContainer{
+	position: relative;
+	width: 320px;
+	height: 60px;
+}
+
+button {
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #333;
+	color: white;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: #444;
+}
+
+.input {
+	width: 320px;
+	height: 60px;
+	display: flex;
+	color: white;
+	justify-content: space-around;
+}
